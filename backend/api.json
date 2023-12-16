@@ -1,0 +1,174 @@
+{
+    "groups": [
+        {
+            "name": "NCAA Football Division 1",
+            "teams": [
+                {
+                    "name": "team 1 Name",
+                    "image": "https://images.unsplash.com/photo-1586199018905-255a046e4880?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                },
+                {
+                    "name": "team 2 Name",
+                    "image": "https://images.unsplash.com/photo-1586199018905-255a046e4880?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                },
+                {
+                    "name": "team 3 Name",
+                    "image": "https://images.unsplash.com/photo-1586199018905-255a046e4880?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                }
+            ]
+        },
+        {
+            "name": "NCAA Men’s Basketball Division 1",
+            "teams": [
+                {
+                    "name": "team 4 Name",
+                    "image": "https://images.unsplash.com/photo-1586199018905-255a046e4880?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                },
+                {
+                    "name": "team 5 Name",
+                    "image": "https://images.unsplash.com/photo-1586199018905-255a046e4880?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                },
+                {
+                    "name": "team 6 Name",
+                    "image": "https://images.unsplash.com/photo-1586199018905-255a046e4880?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                }
+            ]
+        },
+        {
+            "name": "NHL Teams",
+            "teams": [
+                {
+                    "name": "team 7 Name",
+                    "image": "https://images.unsplash.com/photo-1586199018905-255a046e4880?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                },
+                {
+                    "name": "team 8 Name",
+                    "image": "https://images.unsplash.com/photo-1586199018905-255a046e4880?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                },
+                {
+                    "name": "team 9 Name",
+                    "image": "https://images.unsplash.com/photo-1586199018905-255a046e4880?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                }
+            ]
+        },
+        {
+            "name": "NBA Teams",
+            "teams": [
+                {
+                    "name": "team 10 Name",
+                    "image": "https://images.unsplash.com/photo-1586199018905-255a046e4880?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                },
+                {
+                    "name": "team 11 Name",
+                    "image": "https://images.unsplash.com/photo-1586199018905-255a046e4880?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                },
+                {
+                    "name": "team 12 Name",
+                    "image": "https://images.unsplash.com/photo-1586199018905-255a046e4880?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                }
+            ]
+        },
+        {
+            "name": "NFL Teams",
+            "teams": [
+                {
+                    "name": "team 13 Name",
+                    "image": "https://images.unsplash.com/photo-1586199018905-255a046e4880?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                },
+                {
+                    "name": "team 14 Name",
+                    "image": "https://images.unsplash.com/photo-1586199018905-255a046e4880?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                },
+                {
+                    "name": "team 15 Name",
+                    "image": "https://images.unsplash.com/photo-1586199018905-255a046e4880?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                }
+            ]
+        },
+        {
+            "name": "MLB Teams",
+            "teams": [
+                {
+                    "name": "team 16 Name",
+                    "image": "https://images.unsplash.com/photo-1586199018905-255a046e4880?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                },
+                {
+                    "name": "team 17 Name",
+                    "image": "https://images.unsplash.com/photo-1586199018905-255a046e4880?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                },
+                {
+                    "name": "team 18 Name",
+                    "image": "https://images.unsplash.com/photo-1586199018905-255a046e4880?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                }
+            ]
+        },
+        {
+            "name": "MLS Teams",
+            "teams": [
+                {
+                    "name": "team 19 Name",
+                    "image": "https://images.unsplash.com/photo-1586199018905-255a046e4880?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                },
+                {
+                    "name": "team 20 Name",
+                    "image": "https://images.unsplash.com/photo-1586199018905-255a046e4880?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                },
+                {
+                    "name": "team 21 Name",
+                    "image": "https://images.unsplash.com/photo-1586199018905-255a046e4880?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                }
+            ]
+        }
+        
+    ],
+    "events": [
+        {
+            "name": "Europe super soccer game",
+            "date": "2021-05-12",
+            "team_red": "team 10",
+            "team_black": "team 11"
+        },
+        {
+            "name": "Europe super basket game",
+            "date": "2023-05-12",
+            "team_red": "team 12",
+            "team_black": "team 1"
+        },
+        {
+            "name": "Asia super soccer game",
+            "date": "2021-05-12",
+            "team_red": "team 10",
+            "team_black": "team 5"
+        },
+        {
+            "name": "Africa super basketball game",
+            "date": "2021-05-12",
+            "team_red": "team 3",
+            "team_black": "team 9"
+        },
+        {
+            "name": "American super soccer game",
+            "date": "2021-05-12",
+            "team_red": "team 8",
+            "team_black": "team 12"
+        },
+        {
+            "name": "Australia super soccer game",
+            "date": "2021-05-12",
+            "team_red": "team 2",
+            "team_black": "team 6"
+        },
+        {
+            "name": "North Europe super soccer game",
+            "date": "2021-05-12",
+            "team_red": "team 2",
+            "team_black": "team 1"
+        },
+        {
+            "name": "Central Asia super soccer game",
+            "date": "2021-05-12",
+            "team_red": "team 13",
+            "team_black": "team 9"
+        }
+    ]
+}
