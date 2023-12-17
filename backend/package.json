@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "event-api": "json-server --watch api.json --port 3001"
+    "event-api": "json-server --watch api.json --port 3001",
+    "mlb-api": "json-server --watch mlb.json --port 3002",
+    "nfl-api": "json-server --watch nfl.json --port 3003",
+    "nba-api": "json-server --watch nba.json --port 3004"
   },
   "author": "",
   "license": "ISC",
