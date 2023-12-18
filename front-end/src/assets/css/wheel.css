@@ -1,0 +1,29 @@
+.roulette-wheel-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .roulette-wheel-container .wheel {
+    border: 5px solid #ccc;
+    border-radius: 50%;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .roulette-wheel-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .roulette-wheel-container button:hover {
+    background-color: #555;
+  }

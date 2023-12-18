@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Stepper, Step, StepLabel, Button } from "@mui/material";
+import { Stepper, Step, StepLabel, Button, Container } from "@mui/material";
 
 import GroupStep from "./GroupStep";
 import TeamStep from "./TeamStep";
@@ -62,11 +62,13 @@ const RouletteStepper = () => {
     };
 
     return (
-        <div>
-            <Stepper activeStep={activeStep} alternativeLabel>
+        <Container>
+            <Stepper activeStep={activeStep} alternativeLabel sx={{padding: '30px 10px'}}>
                 {steps.map((label) => (
                     <Step key={label}>
-                        <StepLabel>{label}</StepLabel>
+                        <StepLabel>
+                            {label}
+                        </StepLabel>
                     </Step>
                 ))}
             </Stepper>
@@ -81,7 +83,7 @@ const RouletteStepper = () => {
             </div>
 
             {getStepContent(activeStep)}
-        </div>
+        </Container>
     );
 };
 

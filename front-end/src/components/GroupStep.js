@@ -27,14 +27,11 @@ const GroupStep = ({ onSelectGroup, onHandleNext }) => {
                 <img
                     key={group.id}
                     style={{
-                        width: "100px",
-                        height: "100px",
+                        width: "200px",
+                        height: "200px",
                         padding: "10px",
-                        borderRadius: "50%",
-                        border: "1px solid #000",
                         marginRight: "10px",
                         cursor: "pointer",
-                        backgroundColor: "black",
                     }}
                     onClick={() => handelSelectGroup(group)}
                     src={group.image}

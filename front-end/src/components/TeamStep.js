@@ -16,19 +16,19 @@ const teamlist_url = [
 const TeamStep = ({ selectedGroup, onSelectTeam, onHandleNext }) => {
 	const [teams, setTeams] = useState([]);
 
-	useEffect(() => {
-		if (selectedGroup) {
-			axios
-				.get(teamlist_url[selectedGroup.id - 1])
-				.then((res) => {
-					setTeams(res.data.sports[0].leagues[0].teams);
-					console.log(res.data.sports[0].leagues[0].teams);
-				})
-				.catch((err) => {
-					console.log(err);
-				});
-		}
-	}, [selectedGroup]);
+	// useEffect(() => {
+	// 	if (selectedGroup) {
+	// 		axios
+	// 			.get(teamlist_url[selectedGroup.id - 1])
+	// 			.then((res) => {
+	// 				setTeams(res.data.sports[0].leagues[0].teams);
+	// 				console.log(res.data.sports[0].leagues[0].teams);
+	// 			})
+	// 			.catch((err) => {
+	// 				console.log(err);
+	// 			});
+	// 	}
+	// }, [selectedGroup]);
 
 	const handleSelectTeam = (team) => {
 		onHandleNext();
@@ -38,7 +38,7 @@ const TeamStep = ({ selectedGroup, onSelectTeam, onHandleNext }) => {
 	return (
 		<div>
 			<h1>{selectedGroup.name}</h1>
-			{teams.map((team) => (
+			{selectedGroup.teams.map((team) => (
 				<img
 					style={{
 						width: "100px",
@@ -51,7 +51,7 @@ const TeamStep = ({ selectedGroup, onSelectTeam, onHandleNext }) => {
 						// backgroundColor: 'black',
 					}}
 					key={team.id}
-					src={team.team.logos[0].href}
+					src={team.image}
 					onClick={() => handleSelectTeam(team)}
 					alt={team.displayName}
 				/>
